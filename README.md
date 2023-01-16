@@ -45,3 +45,8 @@ run cp /usr/lib/x86_64-linux-gnu/suil-0/libsuil_qt5_in_gtk2.so /opt/Ardour-x.y.0
 
 run rm -rf /install-ardour
 ```
+Dockerfiles can be used directly from this repo:
+
+```
+https://raw.githubusercontent.com/dmgolubovsky/ardour-builds/main/ardour-7.2.0-pulse-20.04.Dockerfile
+```
