@@ -4,8 +4,6 @@ from ubuntu:20.04 as ardour
 
 # Based on the dependencies, butld Ardour proper. In the end create a tar binary bundle.
 
-from xx-by-crdep as ardour
-
 run apt install -y libboost-dev libasound2-dev libglibmm-2.4-dev libsndfile1-dev
 run apt install -y libcurl4-gnutls-dev libarchive-dev liblo-dev libtag-extras-dev
 run apt install -y vamp-plugin-sdk librubberband-dev libudev-dev libnfft3-dev
