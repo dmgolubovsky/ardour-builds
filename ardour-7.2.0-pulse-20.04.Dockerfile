@@ -2,6 +2,10 @@
 
 from ubuntu:20.04 as ardour
 
+run apt -y update
+run apt -y upgrade
+run apt -y autoremove
+
 # Based on the dependencies, butld Ardour proper. In the end create a tar binary bundle.
 
 run apt install -y libboost-dev libasound2-dev libglibmm-2.4-dev libsndfile1-dev
