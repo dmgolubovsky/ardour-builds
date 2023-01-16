@@ -3,6 +3,7 @@
 from ubuntu:20.04 as ardour
 
 env DEBIAN_FRONTEND=noninteractive
+arg DEBIAN_FRONTEND=noninteractive
 
 run apt -y update
 run apt -y upgrade
